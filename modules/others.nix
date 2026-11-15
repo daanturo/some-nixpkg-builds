@@ -28,17 +28,6 @@ in
 
       # build updated llama-cpp from source?  pixi's version seems fine ATM
 
-      gamescope = (
-        pkgs-unstable.gamescope.overrideAttrs (old: {
-          patches = (old.patches or [ ]) ++ [
-            (pkgs-unstable.fetchpatch {
-              url = "https://patch-diff.githubusercontent.com/raw/ValveSoftware/gamescope/pull/2077.patch";
-              hash = "sha256-Qe3aCqROXWbqslxzZF3bpxPL0bu0NcI/r7uU6g8wo0o=";
-            })
-          ];
-        })
-      );
-
     }
   );
 }
