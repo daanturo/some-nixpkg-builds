@@ -66,4 +66,6 @@
   inputs.emacs-overlay.url = "github:nix-community/emacs-overlay";
   # inputs.emacs-overlay.inputs.nixpkgs.follows = "nixpkgs";
 
+  inputs.luciole.url = "github:noctalia-dev/luciole";
+
 }
