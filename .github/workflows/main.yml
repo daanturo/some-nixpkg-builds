@@ -2,7 +2,7 @@ name: update-flake-lock-and-build
 on:
   workflow_dispatch: # allows manual triggering
   schedule:
-    - cron: "0 0 * * *" # daily at 00:00 UTC
+    - cron: "0 0 * * 0" # 00:00 UTC Sunday weekly
 
 jobs:
   update-lockfile-and-build:

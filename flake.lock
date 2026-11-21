@@ -34,24 +34,6 @@
         "type": "github"
       }
     },
-    "luciole": {
-      "inputs": {
-        "nixpkgs": "nixpkgs_2"
-      },
-      "locked": {
-        "lastModified": 1795177372,
-        "narHash": "sha256-umg9xcfHF7t3VTD5ZWbqDyTFJgeat1rkPdmqYcEUVQw=",
-        "owner": "noctalia-dev",
-        "repo": "luciole",
-        "rev": "f89c2159183fa6addccef028a6aa9dce1380276f",
-        "type": "github"
-      },
-      "original": {
-        "owner": "noctalia-dev",
-        "repo": "luciole",
-        "type": "github"
-      }
-    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1795085501,
@@ -99,19 +81,6 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1792773339,
-        "narHash": "sha256-17eNBI5Khe4JZaRkL5hRGPWf8MZ6qv+bWAr4V8YeKBw=",
-        "rev": "3ec636362e1816bc2f0888fa0fa2c69f1bc9e504",
-        "type": "tarball",
-        "url": "https://releases.nixos.org/nixos/unstable/nixos-26.11pre1100280.3ec636362e18/nixexprs.tar.zst"
-      },
-      "original": {
-        "type": "tarball",
-        "url": "https://channels.nixos.org/nixos-unstable/nixexprs.tar.zst"
-      }
-    },
-    "nixpkgs_3": {
-      "locked": {
         "lastModified": 1795031880,
         "narHash": "sha256-Obi0Kr71SBfU9aaDxSncVRT4wYTjLzjMyCmmuC2XGd0=",
         "rev": "3457b69ac4aba6d9ea9a743370af160fb502db29",
@@ -124,7 +93,7 @@
         "url": "https://flakehub.com/f/NixOS/nixpkgs/%2A"
       }
     },
-    "nixpkgs_4": {
+    "nixpkgs_3": {
       "locked": {
         "lastModified": 1770843696,
         "narHash": "sha256-LovWTGDwXhkfCOmbgLVA10bvsi/P8eDDpRudgk68HA8=",
@@ -142,7 +111,7 @@
     },
     "pretty-lean4": {
       "inputs": {
-        "nixpkgs": "nixpkgs_4"
+        "nixpkgs": "nixpkgs_3"
       },
       "locked": {
         "lastModified": 1781455674,
@@ -162,8 +131,7 @@
       "inputs": {
         "emacs-overlay": "emacs-overlay",
         "import-tree": "import-tree",
-        "luciole": "luciole",
-        "nixpkgs": "nixpkgs_3",
+        "nixpkgs": "nixpkgs_2",
         "nixpkgs-unstable": "nixpkgs-unstable",
         "pretty-lean4": "pretty-lean4"
       }
