@@ -2,10 +2,10 @@ name: update-flake-lock-and-build
 on:
   workflow_dispatch: # allows manual triggering
   schedule:
-    - cron: "0 0 * * 0" # runs weekly on Sunday at 00:00 UTC
+    - cron: "0 0 * * *" # daily at 00:00 UTC
 
 jobs:
-  lockfile:
+  update-lockfile-and-build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
